@@ -1,0 +1,44 @@
+.block{
+    width: 200px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px 0px;
+    background-color: #FFD9B3;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.counterBlock{
+    gap: 10px;
+    display: flex;
+}
+
+.image{
+    width: 140px;
+    height: 130px;
+    border-radius: 16px;
+}
+
+.counterButton{
+    background: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.title{
+    font-size: 24px;
+}
+
+.price{
+    color: #98503D;
+    font-size: 20px;
+}
+
+.counter{
+    font-size: 18px;
+}
