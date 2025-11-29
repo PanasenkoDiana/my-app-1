@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import styles from './product.module.css'
+import styles from './product-card.module.css'
 
 interface ProductProps {
     title: string,
@@ -7,7 +7,7 @@ interface ProductProps {
     image: string
 }
 
-export function Product(props: ProductProps) {
+export function ProductCard(props: ProductProps) {
     const {title, price, image} = props
     const [counter, setCounter] = useState(0)
     function incrementProduct(){

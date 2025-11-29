@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    
+    padding: 0 40px;
+
+    background-color: #FFFFFF;
+
+    align-items: center;
+    justify-content: space-between;
+}
+.profileBlock{
+   display: flex;
+   gap: 10px;
+   
+   align-items: center;
+
+   font-size: 24px;
+}
+
+
+.logoBlock{
+    width: 75px;
+    height:75px;
+}
+
+.logoBlock img{
+    width: 75px;
+    height:75px;
+}
+
+.actionBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px
+}
+
+.searchBarBlock{
+    width: 600px;
+    height: 50px; 
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 18px 9px 18px;
+    background-color: #EBE7E7
+    
+}
+
+.menuButton{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBE7E7;
+    border: none;
+    font-size: 16px;
+    transition: all 0.3s;
+
+    cursor: pointer;
+}
+
+.menuButton:hover {
+    background-color: #d8d4d4;
+}
+
+.menuButton:active {
+    border: 1px solid black;
+}
+
+.searchInput{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.searchInput.placeholder{
+    color: rgba(0, 0, 0, 50%)
+}
+
+.profileBlock img{
+    width: 50px;
+    height: 50px;
+}
+.searchIcon {
+    fill: none
+}
