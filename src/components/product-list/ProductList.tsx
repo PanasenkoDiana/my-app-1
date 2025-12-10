@@ -15,7 +15,7 @@ const products = [
 		id: 2,
 		title: "Dranik",
 		price: 850,
-		image: "https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg",
+		image: "https://static.tildacdn.com/tild6537-3866-4665-b661-383834616166/IMG_4822.jpg",
 		categoryId: 1,
 	}, // 1
 	{
@@ -35,14 +35,14 @@ const products = [
 	{
 		id: 5,
 		title: "Product 5",
-		price: 520,
+		price: 5.2,
 		image: "https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg",
 		categoryId: 3,
 	},
 	{
 		id: 6,
 		title: "Product 6",
-		price: 150,
+		price: 15000,
 		image: "https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg",
 		categoryId: 2,
 	},

@@ -8,4 +8,6 @@
     gap: 10px;
     background-color: #fff;
     align-items: center;
+
+    flex: 1;
 }

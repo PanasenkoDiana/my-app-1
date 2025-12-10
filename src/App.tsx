@@ -1,21 +1,19 @@
-import { ProductList } from "./components/product-list/ProductList";
-import styles from "./app.module.css";
-import { Footer } from "./components/footer/Footer";
-import { Header } from "./components/header/Header";
-import { Main } from "./components/main/Main";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Layout } from "./components/layout/Layout";
+import { ProductsPage } from "./pages/products/Page";
+import { HomePage } from "./pages/home/Page";
+
 
 export function App() {
   return (
-    <div className={styles.block}>
-        <Header></Header>
-
-        <Main>
-            <ProductList></ProductList>
-        </Main>
-
-        <Footer></Footer>
-
-
-    </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Layout/>}>
+                    <Route path="/" element={<HomePage/>} />
+                    <Route path="/products" element={<ProductsPage/>} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
   );
 }
+

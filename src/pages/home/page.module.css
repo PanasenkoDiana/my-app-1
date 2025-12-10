@@ -1,0 +1,48 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.title{
+    font-size: 48px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    padding: 20px;
+}
+
+.text-block{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.title-text-block{
+    font-size: 36px;
+    font-weight: 500
+}
+
+.description{
+    font-size: 26px;
+}
+
+.description-list{
+    font-size: 26px;
+}
+
+.main-image{
+    width: 600px;
+    height: 600px;
+}
+
+.image-block{
+    display: flex;
+    justify-content: center
+}

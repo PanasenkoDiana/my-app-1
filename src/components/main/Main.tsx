@@ -7,7 +7,7 @@ import { ReactNode } from "react"
 import styles from './main.module.css'
 
 interface MainProps {
-    children: ReactNode
+    children?: ReactNode
 }
 
 export function Main(props: MainProps) {
