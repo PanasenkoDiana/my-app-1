@@ -4,6 +4,7 @@ import homeImg from "../../assets/images/home.png";
 export function HomePage() {
   return (
     <div className={styles["page"]}>
+        
       <h1 className = {styles["title"]}>TurboSphere: Performance at Your Pace.</h1>
       <div className={styles["content"]}>
         <div className={styles["text-block"]}>

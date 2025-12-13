@@ -1,7 +1,9 @@
-import { ProductCard } from "../product-card/ProductCard";
+
 import styles from "./product-list.module.css";
-import { ReactComponent as SearchIcon } from "./../../assets/svg/search.svg";
 import { useEffect, useState } from "react";
+import { ProductCard } from "./product-card";
+import { ICONS } from "../../shared";
+
 
 const products = [
 	{
@@ -94,7 +96,7 @@ export function ProductList() {
 							setSearchValue(event.target.value);
 						}}
 					/>
-					<SearchIcon className={styles.searchIcon}></SearchIcon>
+					<ICONS.Search className={styles.searchIcon} />
 				</div>
 				<div className={styles.selectCategoryBlock}>
 					<p>Select category: </p>
