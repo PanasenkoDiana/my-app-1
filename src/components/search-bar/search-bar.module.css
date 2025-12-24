@@ -1,0 +1,85 @@
+.searchBarBlock{
+    /* width: 600px; */
+    
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* flex-basis: 150px */
+    flex: 1;
+    height: 50px; 
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 18px 9px 18px;
+    background-color: #EBE7E7;
+
+    position: relative;
+    
+}
+
+
+.searchInput{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.searchInput.placeholder{
+    color: rgba(0, 0, 0, 50%)
+}
+.searchIcon {
+    fill: none
+}   
+.modalContainer {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 600px;
+    height: 400px;
+    
+    display: flex;
+}
+.modalContent{
+    flex-grow: 1;
+    /* flex: 1 */
+
+    display: flex;
+    
+    background-color:rgba(235, 231, 231, 1);
+    border: 1px black solid;
+    border-radius: 16px;
+    
+    flex-direction: column;
+    
+    padding: 10px;
+    gap: 10px;
+}
+
+.searchItem{
+    display: flex;
+
+    padding: 10px 5px 10px 5px;
+    gap: 10px;
+
+    border-radius: 16px;
+    background-color: white;
+}
+
+.searchItemIcon{
+    width: 25px;
+    height: 25px;
+    fill: none;
+}
+
+.searchItemImage{
+    width: 50px;
+    height: 40px;
+}
+
+.searchItemName{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

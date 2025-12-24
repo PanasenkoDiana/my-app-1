@@ -41,21 +41,6 @@ header {
     gap: 50px
 }
 
-.searchBarBlock{
-    /* width: 600px; */
-    
-    /* flex-grow: 1; */
-    /* flex-shrink: 1; */
-    /* flex-basis: 150px */
-    flex: 1;
-    height: 50px; 
-    border-radius: 16px;
-    display: flex;
-    justify-content: space-between;
-    padding: 9px 18px 9px 18px;
-    background-color: #EBE7E7
-    
-}
 
 .menuButton{
     display: flex;
@@ -84,20 +69,8 @@ header {
     border: 1px solid black;
 }
 
-.searchInput{
-    background-color: transparent;
-    border: none;
-    width: 100%;
-}
-
-.searchInput.placeholder{
-    color: rgba(0, 0, 0, 50%)
-}
 
 .profileBlock img{
     width: 50px;
     height: 50px;
-}
-.searchIcon {
-    fill: none
 }
