@@ -5,4 +5,6 @@ export interface ModalProps {
     children?: ReactNode,
     className?: string,
     isClickOutsideDoClose?: boolean
+    onClose?: () => void;
+    container?: HTMLElement
 }
